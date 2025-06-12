@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:training/wallet.dart';
 
 
+import 'NotificationScreen.dart';
 import 'SettingPage.dart';
 
 void main() {
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Settingpage(),
+      home: WalletScreen(),
     );
   }
 }

@@ -9,8 +9,8 @@ List<String> iconlist = [
   "Change PIN", "Notification and Email", "Invite to Pay Synce", "Privacy Policy", "Deleted account"
 ];
 
-class Settingpage extends StatelessWidget {
-  const Settingpage({super.key});
+class WalletScreen extends StatelessWidget {
+  const WalletScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -137,10 +137,11 @@ class Settingpage extends StatelessWidget {
                   ),
                   SizedBox(height: 5,),
                   Container(height: 8,width: 150,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(13),
-                    color: Colors.black
-                  ),)
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(13),
+                        color: Colors.black
+                    ),
+                  )
 
                 ],
               ),
